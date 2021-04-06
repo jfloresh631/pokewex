@@ -1,0 +1,35 @@
+@import "./tools/_variables"
+
+.limiter
+  height: 100%
+  max-width: 1200px
+  margin: auto
+
+.header
+  height: 60px
+  box-shadow: 0 1.5px 0 $border-primary
+  padding: 0 15px
+  position: sticky
+  top: 0
+  background-color: $background-primary
+
+.header > .limiter
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+.header__logo
+  line-height: 30px
+  display: flex
+  align-items: center
+  color: $icon-primary
+  font-size: 20px
+  font-weight: 700
+
+.header__logo svg
+  margin-right: 5px
+  font-size: 30px
+
+svg
+  color: $icon-primary
+  font-size: 24px
