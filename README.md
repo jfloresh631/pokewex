@@ -2,4 +2,4 @@
 
 Pokedex web made with PokeApi
 
-Go to [pokewex.netlify.app/](pokewex.netlify.app/) to show it
+Go to [https://pokewex.netlify.app/](https://pokewex.netlify.app/) to show it
